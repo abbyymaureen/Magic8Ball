@@ -1,16 +1,19 @@
 package main
 
+import "math/rand"
+
 // @author abbybrown
 // @date 03/06/2024
 // @file main.go
 // 		This file lets the user get their fortune by taking in the user's input and returning their
 //		fortune from a list of randomly generated responses.
+// source: https://gobyexample.com/random-numbers
+// source: https://go.dev/doc/tutorial/getting-started
 
 // make sure to put import statements in ()
 import (
 	"bufio"
 	"fmt"
-	"math/rand"
 	"os"
 	"strings"
 	"time"
