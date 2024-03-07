@@ -43,7 +43,7 @@ func magicEightBall() {
 
 	// apparently while loops don't exist, so do a for loop that checks for 'q'
 	for {
-		randNum := randomInt(0, len(messages))
+		randNum := randomInt(0, len(messages)-1)
 
 		// print the menu
 		fmt.Println("* * * Magic Eight Ball of Mystery * * *")
